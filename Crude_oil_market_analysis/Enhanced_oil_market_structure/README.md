@@ -1,5 +1,4 @@
 ### ML forecasting with synthetic data: An application to Urals loading 
-**Location**: [`Applied_Research_Framework_Git/Applied_projects/Crude_oil_market_analysis/Enhanced_oil_market_analysis`]
 
 High ﬁdelity synthetic commodity data that preserves critical market characteristics and offers an alternative solution for data generation without breaching proprietary strategies. Case study using multivariate distribution (based on mean features and covariance to derive the synthetic dataset → projection for usage with copula modeling )
 
