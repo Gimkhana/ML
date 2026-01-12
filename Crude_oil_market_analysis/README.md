@@ -1,5 +1,4 @@
 ### ML forecasting: An application to Urals loading 
-**Location**: [`Applied_Research_Framework_Git/Applied_projects/Crude_oil_market_analysis`]
 
 The project aim to answer the following question: can we build a generalizable ML model that works across normal AND crisis periods, using only economically independent variables?
 
