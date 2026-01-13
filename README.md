@@ -20,17 +20,6 @@ This repository contains four machine learning projects examining price forecast
 
 ---
 
-### Acknowledgments
-
-**Academic Supervision:**
-- T. Roncalli (Paris-Saclay University) - Portfolio theory
-- Abdelkader Bousabaa (Paris-Saclay University) — S&P 500 project
-
-**Institutions:**
-- Université Paris-Saclay
-
----
-
 ### License
 
 MIT License. See individual project LICENSE files for details.
