@@ -1,4 +1,4 @@
-Machine Learning in Financial Markets: A Comprehensive Study
+### Applied Machine Learning (ML) in Financial Markets
 
 **Comparing model performance across equities, rates, FX, and commodities. When do neural networks work? When do simple models outperform?**
 
