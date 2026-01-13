@@ -1,4 +1,4 @@
-# S&P 500 Index Forecasting: MLP vs LSTM vs Ensemble Comparison
+# S&P 500 Index Forecasting
 
 **Machine learning applied to stock market price prediction. Comparing 5 models (MLP, LSTM, CNN, SVM, Random Forest) on S&P 500 data.**
 

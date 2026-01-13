@@ -1,4 +1,4 @@
-# Machine Learning Failures in Financial Time Series
+# Machine Learning Failures in Time Series Analysis
 
 **Why simple models beat neural networks on USD rates and FX forecasting. A case study in regime-shift robustness.**
 
