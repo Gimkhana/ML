@@ -1,10 +1,10 @@
-# Machine Learning in Financial Markets: A Comprehensive Study
+Machine Learning in Financial Markets: A Comprehensive Study
 
 **Comparing model performance across equities, rates, FX, and commodities. When do neural networks work? When do simple models outperform?**
 
 ---
 
-## Overview
+### Overview
 
 This repository contains four machine learning projects examining price forecasting across different asset classes. Each project isolates a specific question: Which models work best under different market regimes?
 
@@ -20,7 +20,7 @@ This repository contains four machine learning projects examining price forecast
 
 ---
 
-## Acknowledgments
+### Acknowledgments
 
 **Academic Supervision:**
 - T. Roncalli (Paris-Saclay University) - Portfolio theory
@@ -31,7 +31,7 @@ This repository contains four machine learning projects examining price forecast
 
 ---
 
-## License
+### License
 
 MIT License. See individual project LICENSE files for details.
 
