@@ -1,4 +1,4 @@
-**Machine Learning Failures in Time Series Analysis**
+### **Machine Learning Failures in Time Series Analysis**
 
 Why Random Forest beats LSTM by 66–83% on interest rate and FX forecasting.
 
@@ -17,6 +17,11 @@ Mechanically, three things favored Random Forest:
 
 Possible modifications discussed: 
 - The cleanest fix is feature engineering. Adding Fed Funds Rate, 2-Year Yield, VIX, and credit spreads would likely bring LSTM performance in line with Random Forest. - Build an adaptive ensemble, use LSTM for normal periods (it captures trends better) and Random Forest during crises (it's robust). But the honest takeaway is that for financial time series with exogenous shocks, you don't need deep learning -> Simple tree based methods work better. I have published the full code, presentation (latex presentation compiled in PDF), hyperparameters, and reproducible pipeline on GitHub. The data is from Refinitiv; results are clean.
+
+Academic papers:
+
+- Nelson, D. B. (1991). "Conditional Heteroskedasticity in Asset Returns." *Econometrica*, 59(2), 347–370.
+- Fama, E. F., & French, K. R. (2015). "A five-factor asset pricing model." *Journal of Financial Economics*, 116(1), 1–22.
 
 Data source: Refinitiv Eikon (2014–2024)
 Status: Research-ready | Full reproducibility | November 2025
