@@ -6,7 +6,7 @@
 
 ### Overview
 
-This repository contains four machine learning projects examining price forecasting across different asset classes. Each project isolates a specific question: Which models work best under different market regimes?
+This repository contains two machine learning projects examining price forecasting across different asset classes. Each project isolates a specific question: Which models work best under different market regimes?
 
 **Central finding:** Model choice depends entirely on data characteristics. Neural networks excel at smooth trends; tree-based methods survive regime shifts.
 
