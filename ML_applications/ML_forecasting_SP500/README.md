@@ -1,4 +1,4 @@
-** S&P 500 Index Forecasting ** 
+**S&P 500 Index Forecasting** 
 
 Can machine learning predict stock prices? Testing 5 models to find out.
 
@@ -22,7 +22,7 @@ The data we used:
 - We trained all models on historical data and tested on held-out observations. T
 - The index behaved nicely: relatively smooth trends without major shocks (unlike 2008 or March 2020). This uptrend bias matters because our results might flip during market corrections. We normalized prices to be comparable across models and evaluated using MAE (average prediction error), which is intuitive.
 
-Where we fell short: We didn't include market-wide variables like the Fed's interest rates, the VIX (volatility index), or credit spreads—things that actually move stock prices. So our models learned historical patterns only, not why those patterns exist. We only tested one time period (uptrend), so we don't know if CNN's dominance on equities holds during crashes. We also only predicted one day ahead; nobody trades on 1-day-ahead predictions in real money. And honestly, we built this as a coursework project, not a trading system. The S&P 500 data we used isn't proprietary, but individual equity data is large. Notebooks and code are on GitHub, raw data available **on request**.
+Where we fell short: We didn't include market-wide variables like the Fed's interest rates, the VIX (volatility index), or credit spreads -> things that actually move stock prices. So our models learned historical patterns only, not why those patterns exist. We only tested one time period (uptrend), so we don't know if CNN's dominance on equities holds during crashes. We also only predicted one day ahead; nobody trades on 1-day-ahead predictions in real money. And honestly, we built this as a coursework project, not a trading system. The S&P 500 data we used isn't proprietary, but individual equity data is large. Notebooks and code are on GitHub, raw data available **on request**.
 
 Bottom line: Yes, machine learning can forecast stock prices slightly better than random guessing. But not by much. LSTM beats MLP by 10% on the index, which is noise. The headline finding (CNN dominates MLP on individual stocks by 97%) is only because MLP was the wrong tool. When you test enough models, one will look brilliant. Deploy it to live trading, and market conditions shift. The only reliable pattern here is that smooth index trends favor memory-based models (LSTM), while noisy volatility requires pattern detection (CNN). Add real macro features and regime detection, and maybe you have something tradeable. This project should be treated as academic: interesting enough for a portfolio, but not investment advice.
 
