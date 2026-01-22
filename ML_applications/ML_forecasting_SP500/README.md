@@ -26,5 +26,5 @@ Where we fell short: We didn't include market-wide variables like the Fed's inte
 
 Bottom line: Yes, machine learning can forecast stock prices slightly better than random guessing. But not by much. LSTM beats MLP by 10% on the index, which is noise. The headline finding (CNN dominates MLP on individual stocks by 97%) is only because MLP was the wrong tool. When you test enough models, one will look brilliant. Deploy it to live trading, and market conditions shift. The only reliable pattern here is that smooth index trends favor memory-based models (LSTM), while noisy volatility requires pattern detection (CNN). Add real macro features and regime detection, and maybe you have something tradeable. This project should be treated as academic: interesting enough for a portfolio, but not investment advice.
 
-Data source: Yahoo Finance (41,265 daily S&P 500 observations)
+Data: 41,265 daily S&P 500 observations
 Status: Academic coursework | March 2024 | Full reproducibility (notebooks on GitHub; data on request)
