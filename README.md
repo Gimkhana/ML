@@ -1,5 +1,9 @@
 ### Applied Machine Learning (ML) in Financial Markets
 
+[![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+<!-- [![R](https://img.shields.io/badge/R-276DC3?logo=r&logoColor=white)](https://www.r-project.org/) -->
+[![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+
 **Comparing model performance across equities, rates, FX, and commodities. When do neural networks work? When do simple models outperform?**
 
 ---
