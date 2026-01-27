@@ -3,10 +3,10 @@
 Can machine learning predict stock prices? Testing 5 models to find out.
 
 We tested five machine learning models (LSTM, MLP, CNN, SVM, Random Forest) trying to forecast S&P 500 daily prices using 41,265 observations of historical data. 
-- The quick takeaway: LSTM wins at predicting the overall index, but only barely—it's 10% better than a simple neural network (MLP).
-- More importantly, when we tried the same models on individual stocks, CNN crushes everything else. MLP fails catastrophically on single-stock volatility (97% error worse than CNN).
+- The quick takeaway: LSTM outperforms at predicting the overall index, but only barely. It's 10% better than a simple neural network (MLP).
+- More importantly, when we tried the same models on individual stocks, CNN outperforms everything else. MLP fails catastrophically on single-stock volatility (97% error worse than CNN).
 - Why does this matter? Because most investors testing "AI stock prediction" pick one model and deploy it everywhere.
-- The reality is different models work for different problems—index (smooth trend data) vs. individual stocks (noisy, volatile data) require completely different approaches.
+- The reality is different: models work for different problems (index tend to have smooth trend data vs. individual stocks noisy, volatile data) require completely different approaches.
 
 Findings: 
 
